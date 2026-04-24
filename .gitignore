@@ -1,0 +1,15 @@
+# Ignorar archivos de variables de entorno y secretos en Arduino
+env.h
+secrets.h
+
+# Ignorar binarios compilados y archivos temporales
+build/
+*.bin
+*.elf
+*.hex
+*.uf2
+.vscode/
+
+# Ignorar carpetas especificas
+No git/
+"No git/"
